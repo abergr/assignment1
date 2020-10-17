@@ -74,11 +74,7 @@ h1 {
 .row {
   margin-right: auto;
   margin-left: auto;
-
-  
   width: 100%;
-  
-
 }
 #text{
   padding-right: 5px; 
@@ -95,10 +91,8 @@ h1 {
  
   .p1, .p2, .p3{
      float: left;
-     width: 33.33%;  
-     
+     width: 33.33%;   
   }
-
 }
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -106,12 +100,10 @@ h1 {
     float:left;
     width: 50%;
   }
-
   .p3 {
     float:left;
     width: 100%;
   }
-
 }
 /********** Small devices only **********/
 @media (max-width: 767px) {
@@ -119,7 +111,7 @@ h1 {
     float: left;
     width: 100%;   
  }
-
+ 
 }
 .row:after {
   content: "";
